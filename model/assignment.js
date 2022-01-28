@@ -11,7 +11,8 @@ let AssignmentSchema = Schema({
     auteur: String,
     matiere: String,
     note: Number,
-    remarques: String
+    remarques: String,
+    coefficient: Number
 });
 
 AssignmentSchema.plugin(aggregatePaginate);
